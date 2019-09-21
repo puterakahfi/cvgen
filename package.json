@@ -1,0 +1,42 @@
+{
+  "name": "nuxt-cv",
+  "version": "1.0.0",
+  "description": "Putera Kahfi CV",
+  "author": "puterakahfi",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build ",
+    "start": "nuxt start",
+    "generate": "nuxt generate ",
+    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate ",
+    "predeploy": "DEPLOY_ENV=GH_PAGES nuxt generate ",
+    "deploy": "DEPLOY_ENV=GH_PAGES push-dir --dir=dist --branch=gh-pages --cleanup"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "1.2.19",
+    "@fortawesome/free-brands-svg-icons": "5.9.0",
+    "@fortawesome/free-solid-svg-icons": "5.9.0",
+    "@fortawesome/vue-fontawesome": "0.1.6",
+    "@nuxtjs/axios": "^5.4",
+    "aos": "^2.3",
+    "bulma-helpers": "^0.3",
+    "chart.js": "^2.8",
+    "cross-env": "^5.2",
+    "node-sass": "^4.12",
+    "nuxt": "^2.9",
+    "nuxt-buefy": "^0.3",
+    "nuxt-fontawesome": "0.4",
+    "sass-loader": "^7.1",
+    "vue": "^2.6",
+    "vue-chartjs": "^3.4",
+    "vue-github-activity": "^2.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.1.2",
+    "nodemon": "^1.18",
+    "postcss-loader": "^3.0.0",
+    "push-dir": "^0.4",
+    "timeline-vuejs": "^1.0"
+  }
+}

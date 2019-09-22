@@ -32,7 +32,7 @@
       </div>
     </div>
     <div class="flex flex-wrap -mx-3 mb-2">
-      <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+      <div class="w-full md:w-3/3 px-3 mb-6 md:mb-0">
         <label
           class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
           for="grid-city"
@@ -48,18 +48,18 @@
       </div>
     </div>
      <div class="flex flex-wrap -mx-3 mb-2">
-      <div class="w-full md:w-1/3 px-3 mb-6 md:mb-0">
+      <div class="w-full md:w-3/3 px-3 mb-6 md:mb-0">
         <label
           class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
           for="grid-city"
         >About Me</label>
         <textarea
-          class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+          class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48"
           id="grid-city"
           type="text"
           placeholder="Albuquerque"
-          v-model="title"
-          @input="updateData({'data':title,'key':'title'})"
+          v-model="about"
+          @input="updateData({'data':about,'key':'about'})"
         />
       </div>
     </div>
@@ -75,7 +75,8 @@ export default {
       info: {},
       firstName: "",
       lastName: "",
-      title: ""
+      title: "",
+      about:""
     };
   },
   computed: mapGetters({ basicInfo: "basicinfo/getData" }),
@@ -92,6 +93,7 @@ export default {
     this.lastName= this.info.lastName;
 
     this.title= this.info.title;
+    this.about = this.info.about;
 }
 };
 </script>

@@ -1,7 +1,7 @@
 <template>
-  <section >
-    <Generator class="inline-block p-2 bg-gray-100 ml-5 mt-5"  />
-    <Component :is="loadTheme"  class="inline-block ml-5 mt-5" />
+  <section class="bg-gray-100 flex justify-start" >
+    <Generator class="p-2 bg-gray-100 ml-5 mt-5"  />
+    <Component :is="loadTheme"  class="inline-block ml-5 mt-5 bg-gray-100 p-5  t-0	"  />
   </section>
 </template>
 

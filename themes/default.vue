@@ -1,5 +1,5 @@
 <template>
-  <section  class=" container w-6/12">
+  <section  class=" container w-12/12 m-0">
     <basic-info />
   </section>
 </template>

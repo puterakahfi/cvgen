@@ -1,24 +1,25 @@
 <template>
   <section>
-      <h1 class="text-2xl mb-3">Generator</h1>
-
-      <BasicInfo />
-
-
+    <Accordion />
+    <BasicInfo />
   </section>
 </template>
 
 <script>
+import Accordion from "~/components/Tailwind/Accordion";
+import BasicInfo from "~/components/Generator/BasicInfo";
+import { mapGetters, mapActions, mapState} from 'vuex';
 
-import BasicInfo from "~/components/Generator/BasicInfo"
 export default {
-    components:{
-        BasicInfo
-    }
-
-}
+  components: {
+    BasicInfo,
+    Accordion
+  },
+  created() {
+      console.log(this.$store.state.basicinfo);
+  },
+};
 </script>
 
 <style>
-
 </style>

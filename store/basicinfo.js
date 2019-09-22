@@ -6,9 +6,8 @@ export const state = () => ({
 })
 
 export const mutations = {
-    SET_DATA: (state, data) => state.data = data,
-    UPDATE_INFO :  (state, data )=> state.data.data[data.key] = data.data,
-    
+    SET_DATA: (state, payload) => state.data = payload,
+    UPDATE_INFO: (state, payload) => state.data.data[payload.key] = payload.data,
 }
 
 export const getters = {
@@ -17,10 +16,10 @@ export const getters = {
 
 
 export const actions = {
-    loadData({ commit }) {
-        commit('SET_DATA', data);
+    loadData(context, payload) {
+        context.commit('SET_DATA', payload);
     },
-    updateData({ commit }, data) {
-        commit('UPDATE_INFO', data);
+    updateData(context, payload) {
+        context.commit('UPDATE_INFO', payload);
     }
 }

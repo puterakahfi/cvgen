@@ -1,5 +1,6 @@
 {
     "label": " Basic Info",
+    "active": true,
     "data": 
         {
             "firstName": "John",

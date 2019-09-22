@@ -88,6 +88,7 @@ export default {
   },
   created() {
     this.loadData();
+    console.log(this.basicInfo);
     this.info = this.basicInfo.data;
     this.firstName= this.info.firstName;
     this.lastName= this.info.lastName;

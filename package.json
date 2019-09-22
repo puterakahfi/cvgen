@@ -1,7 +1,7 @@
 {
-  "name": "nuxt-cv",
-  "version": "1.0.0",
-  "description": "Putera Kahfi CV",
+  "name": "cvgen",
+  "version": "0.1.0",
+  "description": "CV Generator",
   "author": "puterakahfi",
   "private": true,
   "scripts": {

@@ -1,6 +1,5 @@
 <template>
   <section>
-    <Accordion />
     <BasicInfo />
   </section>
 </template>

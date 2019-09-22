@@ -1,4 +1,4 @@
-import data from "~/static/data/basicinfo.json";
+import data from "../resume.json";
 
 export const state = () => ({
     data: '',
@@ -7,7 +7,7 @@ export const state = () => ({
 
 export const mutations = {
     SET_DATA: (state, payload) => state.data = payload,
-    UPDATE_INFO: (state, payload) => state.data.data[payload.key] = payload.data,
+    UPDATE_INFO: (state, payload) => state.data[payload.key] = payload.data,
 }
 
 export const getters = {
@@ -16,8 +16,8 @@ export const getters = {
 
 
 export const actions = {
-    loadData(context, payload) {
-        context.commit('SET_DATA', payload);
+    loadData(context) {
+        context.commit('SET_DATA', data.basics);
     },
     updateData(context, payload) {
         context.commit('UPDATE_INFO', payload);

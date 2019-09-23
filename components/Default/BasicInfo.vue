@@ -1,15 +1,24 @@
 <template>
-  <section  class="md:flex">
-
-    <div class="w-32 h-32 mr-6 group  rounded-full overflow-hidden shadow-inner text-center bg-purple table cursor-pointer">
-      <span class="hidden group-hover:table-cell text-white font-bold align-middle">KR</span>
-      <img src="https://pickaface.net/gallery/avatar/unr_random_180410_1905_z1exb.png" alt="lovely avatar" class="object-cover object-center w-full h-full visible group-hover:hidden">
+  <section class="flex border-b-2 pb-2 mt-5">
+    <div class="w-3/4">
+      <h1 class="text-4xl font-serif mb-0 pb-0 text-gray-800 font-bold">{{ info.name }}</h1>
+      <h3 class="text-2xl text-gray-600 mb-3 pt-0">{{ info.label }}</h3>
     </div>
-    <div>
-     <h1 class="text-5xl font-serif mb-0 pb-0 font-black text-gray-800">{{ info.name }} </h1> 
-     <h3 class="text-2xl text-gray-700">{{ info.label }}</h3>
-     <p class="text-gray-600 mt-5 ">{{ info.summary }}</p>
-     </div>
+    <div class="w-1/4 object-right pt-4">
+      <h3 class="text-sm text-gray-600 pt-2">
+        <fa :icon="['fas', 'phone']" class="text-gray-800 mr-1" />
+        {{ info.phone }}
+      </h3>
+      <h3 class="text-sm text-gray-600 pt-3">
+        <fa :icon="['fas', 'envelope']" class="text-gray-800 mr-1" />
+        {{ info.email }}
+      </h3>
+
+      <h3 class="text-sm text-gray-600 pt-3">
+        <fa :icon="['fas', 'home']" class="text-gray-800 mr-1" />
+        {{ info.website }}
+      </h3>
+    </div>
   </section>
 </template>
 
@@ -17,9 +26,9 @@
 import { mapGetters, mapActions } from "vuex";
 
 export default {
-  computed: mapGetters({info : "basicinfo/getData"}),
+  computed: mapGetters({ info: "basicinfo/getData" }),
   methods: {
-    ...mapActions({loadData: "basicinfo/loadData"})
+    ...mapActions({ loadData: "basicinfo/loadData" })
   },
   created() {
     this.loadData();
@@ -28,8 +37,7 @@ export default {
 </script>
 
 <style scoped>
-
-h3{
-    margin-top:-10px;
+h3 {
+  margin-top: -10px;
 }
 </style>

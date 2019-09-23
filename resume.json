@@ -6,7 +6,7 @@
         "email": "john@gmail.com",
         "phone": "(912) 555-4321",
         "website": "http://johndoe.com",
-        "summary": "A summary of John Doe...",
+        "summary": "Started playing with JavaScript and CSS since se­nior year of high school. Now, I’m using utility-first CSS. As for Ja­va­­Script, I'm practicing functional programming goodness.",
         "location": {
             "address": "2712 Broadway St",
             "postalCode": "CA 94115",

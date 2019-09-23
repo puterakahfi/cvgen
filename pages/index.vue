@@ -1,16 +1,15 @@
 <template>
-  <section class="bg-gray-100 flex justify-start" >
-    <Generator class="p-2 bg-gray-100 ml-5 mt-5 sticky"  />
-    <Component :is="loadTheme"  class="inline-block ml-5 mt-5 bg-gray-100 p-5  t-0	"  />
+  <section class="container mx-auto font-sans max-w-a4 A4 border border-red-400 p-5">
+    <Component :is="loadTheme" class="m-0 p-0 t-0" />
   </section>
 </template>
 
 <script>
 import configs from "~/resume.config";
-import Generator from "~/components/Generator/Generator"
+import Generator from "~/components/Generator/Generator";
 
 export default {
-  components:{
+  components: {
     Generator
   },
   data() {
@@ -36,3 +35,21 @@ export default {
   }
 };
 </script>
+
+
+<style>
+@import url("https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.4.1/paper.css");
+
+@page {
+  size: A4;
+}
+
+body{
+  background: white !important;
+}
+
+.max-w-a4 {
+  max-width: 64.609375rem;
+  size: a4;
+}
+</style>

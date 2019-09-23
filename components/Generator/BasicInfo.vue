@@ -33,6 +33,57 @@
         />
       </div>
     </div>
+
+    <div class="flex flex-wrap -mx-3 mb-2">
+      <div class="w-full md:w-3/3 px-3 mb-6 md:mb-0">
+        <label
+          class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+          for="grid-city"
+        >Website</label>
+        <input
+          class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+          id="grid-city"
+          type="text"
+          placeholder="Albuquerque"
+          v-model="website"
+          @input="updateData({'data':website,'key':'website'})"
+        />
+      </div>
+    </div>
+
+    <div class="flex flex-wrap -mx-3 mb-2">
+      <div class="w-full md:w-3/3 px-3 mb-6 md:mb-0">
+        <label
+          class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+          for="grid-city"
+        >Email</label>
+        <input
+          class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+          id="grid-city"
+          type="text"
+          placeholder="Albuquerque"
+          v-model="email"
+          @input="updateData({'data':email,'key':'email'})"
+        />
+      </div>
+    </div>
+
+    <div class="flex flex-wrap -mx-3 mb-2">
+      <div class="w-full md:w-3/3 px-3 mb-6 md:mb-0">
+        <label
+          class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+          for="grid-city"
+        >Phone</label>
+        <input
+          class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+          id="grid-city"
+          type="text"
+          placeholder="Albuquerque"
+          v-model="phone"
+          @input="updateData({'data':phone,'key':'phone'})"
+        />
+      </div>
+    </div>
      <div class="flex flex-wrap -mx-3 mb-2">
       <div class="w-full md:w-3/3 px-3 mb-6 md:mb-0">
         <label
@@ -62,7 +113,10 @@ export default {
       name: "",
       lastName: "",
       title: "",
-      about:""
+      about:"",
+      website: "",
+      email: "",
+      phone:""
     };
   },
   computed: mapGetters({ basicInfo: "basicinfo/getData" }),
@@ -74,14 +128,16 @@ export default {
   },
   created() {
     this.loadData();
-    console.log(this.basicInfo);
-
 
     this.info = this.basicInfo;
     this.name= this.info.name;
 
     this.title= this.info.label;
     this.about = this.info.summary;
+    this.website= this.info.website;
+    this.email = this.info.email;
+    this.phone = this.info.phone;
+
 
 }
 };

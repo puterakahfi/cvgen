@@ -1,7 +1,7 @@
 {
     "basics": {
         "name": "John Doe",
-        "label": "Programmer",
+        "label": "Fullstack Developer",
         "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTyCeaxBNHh-UW_cbf5q2h2BmsT-im8JKpYJ5Yk8R5T4gth1AtNA",
         "email": "john@gmail.com",
         "phone": "(912) 555-4321",
@@ -30,10 +30,21 @@
     "work": [
         {
             "company": "Company",
-            "position": "President",
+            "position": "Software architect",
             "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
+            "startDate": "March 2017",
+            "endDate": "Current",
+            "summary": "Description...",
+            "highlights": [
+                "Started the company"
+            ]
+        },
+        {
+            "company": "Company",
+            "position": "Junior Web Developer",
+            "website": "http://company.com",
+            "startDate": "Januari 2015",
+            "endDate": "Pebruari 2017",
             "summary": "Description...",
             "highlights": [
                 "Started the company"

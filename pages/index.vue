@@ -1,5 +1,5 @@
 <template>
-  <section class="container mx-auto font-sans max-w-a4 A4 border border-red-400 p-5">
+  <section class="container mx-auto font-sans max-w-a4 A4   p-5">
     <Component :is="loadTheme" class="m-0 p-0 t-0" />
   </section>
 </template>

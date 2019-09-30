@@ -1,4 +1,5 @@
 import pkg from "./package";
+import resume from "./resume.json";
 
 const routerBase =
   process.env.DEPLOY_ENV === "GH_PAGES"
@@ -17,7 +18,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: "Putera Kahfi",
+    title: resume.basics.name +' Resume',
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },

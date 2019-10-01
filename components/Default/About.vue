@@ -7,18 +7,23 @@
 
     <div class="w-1/4 object-right tracking-wider">
       <h1 class="text-1xl font-serif mb-0 pb-0 text-gray-600 font-bold uppercase mb-3">Contact</h1>
-
       <h3 class="text-sm text-gray-600">
-        <fa :icon="['fas', 'phone']" class="mr-1" />
+        <fa-layers full-width class="fa-2x">
+          <fa :icon="['fas', 'phone']" class="mr-1"  />
+        </fa-layers>
         {{ info.phone }}
       </h3>
       <h3 class="text-sm text-gray-600 pt-3">
-        <fa :icon="['fas', 'envelope']" class="mr-1" />
+        <fa-layers full-width class="fa-2x">
+          <fa :icon="['fas', 'envelope']" class="mr-1"  />
+        </fa-layers>
         {{ info.email }}
       </h3>
 
       <h3 class="text-sm text-gray-600 pt-3">
-        <fa :icon="['fas', 'home']" class="mr-1" />
+        <fa-layers full-width class="fa-2x">
+          <fa :icon="['fas', 'home']" class="mr-1"  />
+        </fa-layers>
         {{ info.website }}
       </h3>
     </div>

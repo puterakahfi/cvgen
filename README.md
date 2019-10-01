@@ -1,6 +1,8 @@
 # cvgen
 generate your cv  stop wasting your time
 
+[![Build Status](https://travis-ci.org/puterakahfi/cvgen.svg?branch=master)](https://travis-ci.org/puterakahfi/cvgen)
+
 # How to contribute to this project ?
 1. Fork the repo (To do this, go to the repo https://github.com/puterakahfi/cvgen and click on "fork" at the top right of the page)
 2. clone the repository in your machine

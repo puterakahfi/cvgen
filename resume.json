@@ -1,7 +1,7 @@
 {
     "basics": {
         "name": "John Doe",
-        "label": "Fullstack Developer",
+        "label": "Software Engineer",
         "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTyCeaxBNHh-UW_cbf5q2h2BmsT-im8JKpYJ5Yk8R5T4gth1AtNA",
         "email": "john@gmail.com",
         "phone": "(912) 555-4321",
@@ -30,7 +30,7 @@
     "work": [
         {
             "company": "Semper Fortis Solutions, LLC, Leesburg, VA (Remote), USA",
-            "position": "Software architect",
+            "position": "Software Architect",
             "website": "http://company.com",
             "startDate": "March 2017",
             "endDate": "Current",

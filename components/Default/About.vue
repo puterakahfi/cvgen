@@ -9,20 +9,20 @@
       <h1 class="text-1xl font-serif mb-0 pb-0 font-bold  mb-4">Contact</h1>
       <h3 class="text-sm">
         <fa-layers full-width class="fa-1x">
-          <fa :icon="['fas', 'phone']"  size="sm" class="mr-2" />
+          <fa :icon="['fas', 'phone']"  size="sm" class="" />
         </fa-layers>
         {{ info.phone }}
       </h3>
       <h3 class="text-sm pt-3">
         <fa-layers full-width class="fa-1x">
-          <fa :icon="['fas', 'envelope']"  size="sm" class="mr-2" />
+          <fa :icon="['fas', 'envelope']"  size="sm" class="" />
         </fa-layers>
         {{ info.email }}
       </h3>
 
       <h3 class="text-sm  pt-3">
         <fa-layers full-width class="fa-1x">
-          <fa :icon="['fas', 'home']" size="sm"  class="mr-2" />
+          <fa :icon="['fas', 'home']" size="sm"  class="" />
         </fa-layers>
         {{ info.website }}
       </h3>

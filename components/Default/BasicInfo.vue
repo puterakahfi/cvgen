@@ -2,7 +2,7 @@
   <section class="flex pb-2 mt-5">
     <div class="w-3/4">
       <h1 class="text-6xl font-serif mb-0 pb-0 text-gray-800 font-bold  ">{{ info.name }}</h1>
-      <h3 class="text-2xl mt-0 mb-3 pt-0 font-bold">{{ info.label }}</h3>
+      <h3 class="text-3xl mt-0 mb-3 pt-0 font-bold">{{ info.label }}</h3>
     </div>
   </section>
 </template>

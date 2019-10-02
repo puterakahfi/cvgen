@@ -6,7 +6,7 @@
         "email": "john@gmail.com",
         "phone": "(912) 555-4321",
         "website": "http://johndoe.com",
-        "summary": "Started playing with JavaScript and CSS since se­nior year of high school. Now, I’m using utility-first CSS. As for Ja­va­­Script, I'm practicing functional programming goodness.",
+        "summary": "Innovative optimized solution seeker. Excited to be at the deployment phase of my new career as a web developer. I am ambitious, adventurous, assiduous, animated, and an alliteration advocate.",
         "location": {
             "address": "2712 Broadway St",
             "postalCode": "CA 94115",
@@ -29,23 +29,23 @@
     },
     "work": [
         {
-            "company": "Company",
+            "company": "Semper Fortis Solutions, LLC, Leesburg, VA (Remote), USA",
             "position": "Software architect",
             "website": "http://company.com",
             "startDate": "March 2017",
             "endDate": "Current",
-            "summary": "Description...",
+            "summary":"Maintaining and updating Savanna. This system maintains threat matrices and other deployment information for the US military. It uses Java and tomcat to implement a RESTful API which is connected to by the front end which is a web application written using the Sencha framework in JavaScript and HTML5",
             "highlights": [
-                "Started the company"
+                "Maintaining and updating Savanna. This system maintains threat matrices and other deployment information for the US military. It uses Java and tomcat to implement a RESTful API which is connected to by the front end which is a web application written using the Sencha framework in JavaScript and HTML5"
             ]
         },
         {
-            "company": "Company",
+            "company": "Free Software Foundation, Boston, MA, USA",
             "position": "Junior Web Developer",
             "website": "http://company.com",
             "startDate": "Januari 2015",
             "endDate": "Pebruari 2017",
-            "summary": "Description...",
+            "summary": "    The GNUstep project is an open source / free software effort to duplicate the Cocoa APIs on a variety of platforms. I have been instrumental in defining the infrastructure of the project and have implemented many key elements of it including the Gorm (Xcode Interface Builder equivalent) for the project. I have also begun work on a fork of the swift language for it. I have a unique insight into these technologies. http://www.gnustep.org",
             "highlights": [
                 "Started the company"
             ]
@@ -66,11 +66,22 @@
     ],
     "education": [
         {
-            "institution": "University",
-            "area": "Software Development",
+            "institution": "Thinkful, Chicago, IL",
+            "area": "Engineering Immersion Program",
             "studyType": "Bachelor",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
+            "startDate": "11/2018",
+            "endDate": "06/2018",
+            "gpa": "4.0",
+            "courses": [
+                "DB1101 - Basic SQL"
+            ]
+        },
+        {
+            "institution": "University of California, Los Angles",
+            "area": "Software Engineering",
+            "studyType": "BA, English",
+            "startDate": "09/2001",
+            "endDate": "09/2005",
             "gpa": "4.0",
             "courses": [
                 "DB1101 - Basic SQL"

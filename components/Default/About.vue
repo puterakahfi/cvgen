@@ -1,11 +1,11 @@
 <template>
   <section class="flex pb-2 mt-5 border-separate">
-    <div class="w-2/4 mr-3">
+    <div class="w-4/6 mr-3">
       <h1 class="text-1xl font-serif mb-0 pb-0 font-bold uppercase mb-3">About Me</h1>
       <h3 class="text-1xl text-gray-600 mb-3 pt-0">{{ info.summary }}</h3>
     </div>
 
-    <div class="w-1/4 object-right tracking-wider">
+    <div class="w-2/6 object-right tracking-wider">
       <h1 class="text-1xl font-serif mb-0 pb-0 font-bold uppercase mb-3">Contact</h1>
       <h3 class="text-sm text-gray-600">
         <fa-layers full-width class="fa-1x">

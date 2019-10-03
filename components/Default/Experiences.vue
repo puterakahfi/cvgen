@@ -1,12 +1,12 @@
 <template>
-  <section class="lg:flex sm:block pb-2 mt-5 border-separate">
+  <section class="lg:flex sm:block pb-2 mt-5 ">
     <div class="w-4/6 sm:w-6/6 mr-6">
       <h1 class="text-2xl font-serif mb-0 pb-0 font-bold mb-3">Experiences</h1>
-      <div v-for="experience in experiences" v-bind:key="experience.id" class="mb-6 mt-6 border-b">
+      <div v-for="experience in experiences" v-bind:key="experience.id" class="mb-12 mt-6">
         <h3 class="text-sm font-semibold mb-3">{{experience.position }} // {{ experience.startDate }} - {{ experience.endDate }} </h3>
 
         <h3 class="text-lg font-bold mb-3">{{experience.company}} </h3>
-        <p class="text-sm mb-6 leading-relaxed">{{ experience.summary }}</p>
+        <p class="text-sm mb-6 leading-loose">{{ experience.summary }}</p>
       </div>
     </div>
 

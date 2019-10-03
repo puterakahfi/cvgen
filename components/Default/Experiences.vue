@@ -6,7 +6,7 @@
         <h3 class="text-sm font-semibold mb-3">{{experience.position }} // {{ experience.startDate }} - {{ experience.endDate }} </h3>
 
         <h3 class="text-lg font-bold mb-3">{{experience.company}} </h3>
-        <p class="text-md mb-6">{{ experience.summary }}</p>
+        <p class="text-sm mb-6 leading-relaxed">{{ experience.summary }}</p>
       </div>
     </div>
 

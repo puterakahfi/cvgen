@@ -3,7 +3,7 @@
     <basic-info />
     <about />
     <experiences />
-    <skills/>
+    <projects />
   </section>
 </template>
 
@@ -11,6 +11,8 @@
 import BasicInfo from "~/components/Default/BasicInfo";
 import About from "~/components/Default/About";
 import Experiences from "~/components/Default/Experiences";
+
+import Projects from "~/components/Default/Projects";
 import Skills from "~/components/Default/Skills";
 
 export default {
@@ -18,7 +20,8 @@ export default {
     'basic-info': BasicInfo,
     'about':About,
     'experiences': Experiences,
-    'skills': Skills
+    'skills': Skills,
+    'projects': Projects
   }
 };
 </script>

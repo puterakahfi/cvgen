@@ -107,12 +107,21 @@
     ],
     "skills": [
         {
-            "name": "Web Development",
+            "name": "Front End",
+            "level": "Expert",
+            "keywords": [
+                "VueJS",
+                "NuxtJs",
+                "Vuepress"
+            ]
+        },
+        {
+            "name": "Backend",
             "level": "Master",
             "keywords": [
-                "HTML",
-                "CSS",
-                "Javascript"
+                "PHP",
+                "Symfony Framework",
+                "DDD"
             ]
         }
     ],
@@ -135,6 +144,15 @@
         {
             "name": "Jane Doe",
             "reference": "Reference..."
+        }
+    ],
+    "projects": [
+        {
+            "name": "Project 1",
+            "publisher": "Company",
+            "releaseDate": "2014-10-01",
+            "website": "http://publication.com",
+            "summary": "Description..."
         }
     ]
 }

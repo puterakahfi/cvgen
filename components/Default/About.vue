@@ -2,7 +2,7 @@
   <section class="lg:flex sm:block  pb-2 mt-5 border-separate">
     <div class="w-4/6  mr-3">
       <h1 class="text-2xl font-serif mb-0 pb-0 font-bold  mb-3">About Me</h1>
-      <h3 class="text-md  mb-3 pt-0  mb-6 leading-relaxed ">{{ info.summary }}</h3>
+      <h3 class="text-md  mb-3 pt-0  mb-6 leading-relaxed  ">{{ info.summary }}</h3>
     </div>
 
     <div class="w-2/6 md:w-6/6 object-right tracking-wider">

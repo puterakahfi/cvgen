@@ -1,24 +1,25 @@
-//import projectsData from "~/static/projects.json";
+import data from "../resume.json";
 
 export const state = () => ({
-    projects: [{ name: 'sdsds' }],
+    data: '',
     isLoading: false
 })
 
 export const mutations = {
-    setProjects(state, projects) {
-        state.projects = projects
-    }
+    SET_DATA: (state, payload) => state.data = payload,
+    UPDATE_INFO: (state, payload) => state.data[payload.key] = payload.data,
 }
 
 export const getters = {
-    allProjects: (state) => state.projects
+    getData: (state) => state.data
 }
 
 
 export const actions = {
-
-    fetchProjects({ commit }) {
-        commit('setProjects', projectsData);
+    loadData(context) {
+        context.commit('SET_DATA', data.projects);
     },
+    updateData(context, payload) {
+        context.commit('UPDATE_INFO', payload);
+    }
 }

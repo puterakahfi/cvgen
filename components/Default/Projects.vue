@@ -3,7 +3,8 @@
     <div class="w-4/6 sm:w-6/6 mr-6">
       <h1 class="text-2xl font-serif mb-0 pb-0 font-bold mb-3">Projects</h1>
       <div v-for="project in projects" v-bind:key="project.id" class="mb-6 mt-6 ">
-        <h3 class="text-lg font-bold mb-3">{{ project.name }} </h3>
+        <h3 class="text-md font-bold mb-0">{{ project.name }} </h3>
+        <p>{{ project.summary }} </p>
       </div>
     </div>
 

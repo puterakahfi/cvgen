@@ -148,11 +148,16 @@
     ],
     "projects": [
         {
-            "name": "Project 1",
-            "publisher": "Company",
+            "name": "CV Generator",
             "releaseDate": "2014-10-01",
             "website": "http://publication.com",
-            "summary": "Description..."
+            "summary": "Open Source project, build a CV "
+        },
+        {
+            "name": "Javascript Developer",
+            "releaseDate": "2014-10-01",
+            "website": "http://publication.com",
+            "summary": "Open Source project, a landing page for javascript developers from Indonesia "
         }
     ]
 }

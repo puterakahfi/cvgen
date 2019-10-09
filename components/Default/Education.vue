@@ -1,5 +1,5 @@
 <template>
-  <section class="flex pb-2 border-separate border-b">
+  <section class="flex pb-2 border-separate border-b mb-3">
     <div class="w-4/4 mr-3">
       <h1 class="text-1xl font-serif mb-0 pb-0 font-bold  mb-3">Education</h1>
       <div v-for="education in educations" v-bind:key="education.id" class="mb-5 mt-4">

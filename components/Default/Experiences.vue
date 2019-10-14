@@ -1,6 +1,6 @@
 <template>
   <section class="lg:flex sm:block pb-2 mt-5 border-separate">
-    <div class="w-4/6 sm:w-6/6 mr-6">
+    <div class="w-6/6 md:w-4/6 lg:mr-6">
       <h1 class="text-2xl font-serif mb-0 pb-0 font-bold mb-3">Experiences</h1>
       <div v-for="experience in experiences" v-bind:key="experience.id" class="mb-6 mt-6 border-b">
         <h3 class="text-sm font-semibold mb-3 text-gray-600">{{experience.position }} // {{ experience.startDate }} - {{ experience.endDate }} </h3>
@@ -10,7 +10,7 @@
       </div>
     </div>
 
-    <div class="w-2/6 sm:w-6/6 mr-3">
+    <div class="w-6/6 md:w-4/6 lg:w-2/6 lg:mr-3">
       <education />
       <skills />
     </div>

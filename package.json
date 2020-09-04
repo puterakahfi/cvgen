@@ -23,7 +23,7 @@
     "bulma-helpers": "^0.3",
     "chart.js": "^2.8",
     "cross-env": "^5.2",
-    "node-sass": "^4.12",
+    "node-sass": "^4.13",
     "nuxt": "^2.9",
     "nuxt-buefy": "^0.3",
     "nuxt-fontawesome": "0.4",
